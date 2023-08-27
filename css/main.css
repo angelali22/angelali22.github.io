@@ -215,6 +215,8 @@ div.sub, iframe {
     margin-bottom: 3%;
     background-color: #ffffff;
 }
+
+
 .button--piyo{
   --main_color : #f4cf47 ;
   --sub_color1 : #f4e19c ;
@@ -336,6 +338,23 @@ div.sub, iframe {
 .character__face::after{
   right : -5px ;
 }
+
+.button--hoo .charactor__face2{
+  position : absolute ;
+  z-index : 1 ;
+  top : 8px ;
+  left : 0 ;
+  right : 0 ;
+  margin : auto ;
+  width : 14px ;
+  height : 10px ;
+  background : #385082 ;
+  animation : face_hoo 1s ease infinite alternate ;
+}
+
+.button--piyo::before{
+  clip-path : path('M24,12.02c0-1.09-.75-1.71-.81-1.77L11.17,.45c-.91-.74-2.21-.56-2.91,.42-.69,.97-.52,2.37,.39,3.11l7.12,5.81-13.7-.02h0C.93,9.77,0,10.76,0,11.99c0,1.23,.93,2.22,2.07,2.22l13.7,.02-7.13,5.78c-.91,.74-1.09,2.13-.4,3.11,.41,.58,1.03,.88,1.65,.88,.44,0,.88-.15,1.25-.45l12.04-9.76c.07-.06,.82-.67,.82-1.77Z') ;
+}
 .button--piyo .button__wrapper::before,
 .button--piyo .button__wrapper::after{
   content : '' ;
@@ -353,7 +372,25 @@ div.sub, iframe {
   right : 0 ;
   transform : rotateY(180deg) ;
 }
+.button--hoo .button__wrapper::before,
+.button--hoo .button__wrapper::after{
+  content : '' ;
+  position : absolute ;
+  width : 80px ;
+  height : 100px ;
+  background : var(--sub_color1) ;
+  clip-path : path('M75.96,41.27l-42.76,11.17V0H0V100H33.2v-28.75l45.07-23.97c3.38-1.8,1.39-6.98-2.31-6.01Z') ;
+}
 
+.button--pen .button__wrapper::before,
+.button--pen .button__wrapper::after{
+  content : '' ;
+  position : absolute ;
+  width : 110px ;
+  height : 60px ;
+  background : var(--sub_color1) ;
+  clip-path : path('M9.12,14.14L43.15,.5c1.61-.86,3.57-.59,4.9,.68l19.55,14.31c.42,.4,.76,.89,.99,1.42l3.45,13.09c.89,2.06,3.18,3.09,5.28,2.37l11.76-4.86c1.56-.54,3.29-.11,4.43,1.1l11.93,12.39c.48,.51,.84,1.12,1.03,1.8l3.35,11.62c.8,2.79-1.25,5.58-4.1,5.58H4.27c-2.71,0-4.73-2.54-4.18-5.24L6.92,17.11c.26-1.28,1.07-2.37,2.2-2.97Z') ;
+}
 .button:hover .button__wrapper::before{
   transform : translateX(-12px) ;
 }
@@ -380,6 +417,29 @@ div.sub, iframe {
 .button:hover .wakeup:nth-child(2) .character__face::before,
 .button:hover .wakeup:nth-child(2) .character__face::after{
   animation : eye_2 5s linear infinite ;
+}
+.button--hoo:hover .wakeup .charactor__face2::before,
+.button--hoo:hover .wakeup .charactor__face2::after{
+  height : 20px ;
+}
+.button--hoo:hover .wakeup .charactor__body{
+  animation : body_hoo_wakeup .2s ease ;
+  animation-fill-mode : forwards ;
+  border-top : solid 6px #385082 ;
+}
+.button--hoo:hover .wakeup .charactor__body::before,
+.button--hoo:hover .wakeup .charactor__body::after{
+  top : -12px ;
+  border-top : solid 5px #385082 ;
+}
+.button--pen:hover .wakeup .charactor__face2{
+  animation : face_pen_wakeup .2s ease ;
+  animation-fill-mode : forwards ;
+}
+.button--pen:hover .wakeup .charactor__face2::before,
+.button--pen:hover .wakeup .charactor__face2::after{
+  top : -12px ;
+  height : 18px ;
 }
 @keyframes sleep{
   0%  {
@@ -526,6 +586,45 @@ div.sub, iframe {
       transform : translateX(0);
   }
 }
+@keyframes body_hoo{
+  0%  {
+      bottom : 2px ;
+  }
+  100%{
+      bottom : 0 ;
+  }
+}
+@keyframes body_hoo_wakeup{
+  0%  {
+      bottom : 2px ;
+  }
+  100%{
+      bottom : 6px ;
+  }
+}
+@keyframes face_pen{
+  0%  {
+      height : 14px ;
+  }
+  100%{
+      height : 10px ;
+  }
+}
+@keyframes face_pen_wakeup{
+  0%  {
+      height : 14px ;
+  }
+  100%{
+      height : 28px ;
+  }
+}
+
+
+
+
+
+
+
 /* 本体と関係ないスタイル */
 .contain{
   width : 100% ;
@@ -536,7 +635,7 @@ div.sub, iframe {
   align-items : center ;
   background : #FFF ;
 }
-
 .button:not(:last-child){
   margin-bottom : 80px ;
 }
+
