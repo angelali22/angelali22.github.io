@@ -1,0 +1,203 @@
+@font-face {
+  font-family: 'new_spiritsemibold';
+  src: url('new_spirit_semibold-webfont.woff2') format('woff2'),
+       url('new_spirit_semibold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+	font-size: 200%;
+	font-family: 'new_spiritsemibold', serif;
+  font-weight: 900;
+  color: #000000
+}
+p{
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 150%;
+  margin: 2%;
+}
+hr {
+    border-top: 1px solid #b1d2ba;
+    margin-bottom: 2%;
+    margin-top: 0;
+}
+header {
+	text-align: center;
+}
+h2{
+    font-size: 170%;
+    font-family: "Nanum Myeongjo", serif;
+    margin-left: 15%;
+    padding-right: 3px;
+}
+summary{
+	font-style: normal;
+}
+
+footer{
+	background: #666666;
+}
+a{
+	font-family: "Nanum Myeongjo", serif;
+    color: #000000;
+    font-size: 150%;
+    text-decoration: none;
+}
+h3 {
+    font-size: 250%;
+    font-family: "Nanum Myeongjo", serif;
+    justify-content: left;
+    
+}
+h4 {
+    font-size: 250%;
+    font-family: "Nanum Myeongjo", serif;
+    justify-content: left;
+    margin-left: 7%;
+    
+}
+body {
+    color:#000000;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    margin-right: 40%;
+    align-items: left;
+    justify-content: left;
+    color:#000000;
+}
+.element{
+    color: #b1d2ba;
+    font-weight: bold;
+}
+section{
+	width:30%;
+	margin-right: 7%;
+  margin-left: 7%;
+	float: left;
+}
+img {
+    margin-top: 15%;
+    width: 80%;
+    height: 100%;
+    margin-bottom: 15%;
+}
+.button-28 {
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid #1A1A1A;
+    border-radius: 15px;
+    box-sizing: border-box;
+    color: #3B3B3B;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Nanum Myeongjo", serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0%;
+    min-height: 6px;
+    min-width: 6px;
+    outline: none;
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 50%;
+    will-change: transform;
+  }
+  
+  .button-28:disabled {
+    pointer-events: none;
+  }
+  
+  .button-28:hover {
+    color: #fff;
+    background-color: #1A1A1A;
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+  }
+  
+  .button-28:active {
+    box-shadow: none;
+    transform: translateY(0);
+    .topnav {
+      position: relative;
+      background-color: #333;
+      overflow: hidden;
+    }
+  }
+
+  .topnav {
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden;
+    margin: 2%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #000000;
+    font-family: 'new_spiritsemibold', serif;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 200%;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+  
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+  #all{
+    width:100%;
+    float:left;
+    text-align:center;
+}
+div.sub, iframe {
+    margin: 0 auto;
+    margin-bottom: 3%;
+    background-color: #ffffff;
+}
