@@ -18,14 +18,17 @@ p{
 }
 hr {
     border-top: 1px solid #b1d2ba;
-    margin-bottom: 2%;
-    margin-top: 0;
+    margin-bottom: 7%;
+    margin-top: 13%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 header {
 	text-align: center;
+  margin-bottom: 13%;
 }
 h2{
-    font-size: 170%;
+    font-size: 700%;
     font-family: "Nanum Myeongjo", serif;
     margin-left: 15%;
     padding-right: 3px;
@@ -44,45 +47,54 @@ a{
     text-decoration: none;
 }
 h3 {
-    font-size: 250%;
+    font-size: 700%;
     font-family: "Nanum Myeongjo", serif;
-    justify-content: left;
-    
+    text-align: center;
 }
 h4 {
     font-size: 250%;
     font-family: "Nanum Myeongjo", serif;
-    justify-content: left;
-    margin-left: 7%;
+    margin-top: 0;
+    margin-bottom: 7%;
+    text-align: center;
     
 }
 body {
     color:#000000;
     margin: 0 auto;
 }
-
+h5{
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 300%;
+}
 .container {
-    display: flex;
-    margin-right: 40%;
-    align-items: left;
-    justify-content: left;
+  margin-right: 12%;
+  margin-bottom: 10%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color:#000000;
 }
 .element{
+  margin: auto;
     color: #b1d2ba;
     font-weight: bold;
+    text-align: center;
 }
 section{
-	width:30%;
-	margin-right: 7%;
-  margin-left: 7%;
+	width:35%;
+	margin-right: 5%;
+  margin-left: 10%;
 	float: left;
 }
+
 img {
-    margin-top: 15%;
+    margin-top: 9%;
+    margin-left: 0;
     width: 80%;
     height: 100%;
-    margin-bottom: 15%;
+    margin-bottom: 34%;
 }
 .button-28 {
     appearance: none;
@@ -97,7 +109,7 @@ img {
     font-size: 20px;
     font-weight: 600;
     line-height: normal;
-    margin: 0%;
+    margin: 5%;
     min-height: 6px;
     min-width: 6px;
     outline: none;
@@ -110,6 +122,8 @@ img {
     touch-action: manipulation;
     width: 50%;
     will-change: transform;
+    justify-content: center;
+    align-items: center;
   }
   
   .button-28:disabled {
