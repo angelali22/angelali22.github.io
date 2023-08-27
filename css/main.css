@@ -743,7 +743,7 @@ div.sub, iframe {
 }
 
 /* 本体と関係ないスタイル */
-.container{
+.contain{
   width : 100% ;
   height : 600px ;
   display : flex ;
