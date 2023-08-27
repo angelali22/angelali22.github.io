@@ -239,7 +239,7 @@ div.sub, iframe {
   border : solid 3px #000 ;
   border-radius : 40px ;
   background : var(--main_color) ;
-  font-family: 'Fredoka One', cursive;
+  font-family: "Nanum Myeongjo", serif;
 }
 .button::before{
   content : '' ;
@@ -634,6 +634,7 @@ div.sub, iframe {
   justify-content : center ;
   align-items : center ;
   background : #FFF ;
+  font-family: "Nanum Myeongjo", serif;
 }
 .button:not(:last-child){
   margin-bottom : 80px ;
