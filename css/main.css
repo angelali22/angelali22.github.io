@@ -84,7 +84,7 @@ h5{
 section{
 	width:35%;
 	margin-right: 5%;
-  margin-left: 10%;
+  margin-left: 5%;
 	float: left;
 }
 
@@ -119,7 +119,7 @@ img {
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    width: 50%;
+    width: 100%;
     will-change: transform;
     justify-content: center;
     align-items: center;
