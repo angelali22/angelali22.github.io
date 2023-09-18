@@ -159,6 +159,7 @@ img {
    #rc_logo a { 
    color: inherit; 
    text-decoration: none;
+   font-family: 'new_spiritsemibold', serif;
    } 
    
    .rc_nav {
@@ -166,6 +167,7 @@ img {
      background-color: #FFFFFF;
      text-align: center;
      z-index: 6;
+     font-family: 'new_spiritsemibold', serif;
    }
    
    .rc_nav a {
@@ -191,6 +193,7 @@ img {
    
    .rc_nav .icon {
      display: none;
+     font-family: 'new_spiritsemibold', serif;
    }
    
    
