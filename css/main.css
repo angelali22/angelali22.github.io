@@ -152,7 +152,7 @@ img {
     position: absolute;
     color: #fff;
     font-size: 19px;
-    font-family: Poppins;
+    font-family: 'new_spiritsemibold', serif;
     text-decoration: none;
    }
    
@@ -174,7 +174,7 @@ img {
     color: #fff;
     padding: 22px 22px;
     text-decoration: none;
-    font-family: Poppins;
+    font-family: 'new_spiritsemibold', serif;
     font-size: 18px;
     -webkit-transition: background 0.3s linear;
     -moz-transition: background 0.3s linear;
@@ -196,7 +196,7 @@ img {
    .rc_content {
      text-align: center; 
      padding-left:14px; 
-     font-family: Poppins; 
+     font-family: 'new_spiritsemibold', serif;
      margin-top: 100px;  
      color: #8e909b;
    }
