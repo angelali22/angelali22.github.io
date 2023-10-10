@@ -26,6 +26,13 @@ h2{
     margin-left: 15%;
     padding-right: 3px;
 }
+hr {
+  border-top: 1px solid #b1d2ba;
+  margin-bottom: 7%;
+  margin-top: 13%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 summary{
 	font-style: normal;
 }
@@ -61,13 +68,12 @@ h5{
   font-size: 300%;
 }
 .container {
-  margin-right: 12%;
   margin-bottom: 10%;
-    display: block;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color:#000000;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color:#000000;
 }
 .element{
   margin: auto;
